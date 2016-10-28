@@ -5,12 +5,14 @@
 
 struct Player
 {
-  Player(std::string, std::string, int, int, int, int, int, int, int, int, int);
+  Player(std::string, std::string, int, int, int, int, int, int, int, int, int, int, int);
   void setName(std::string);
   void setArea(std::string);
   void setLevel(int);
   void setExp(int);
   void setExpRequired(int);
+  void setHealth(int);
+  void setMaxHealth(int);
   void setStrength(int);
   void setConstitution(int);
   void setIntelligence(int);
@@ -23,6 +25,8 @@ struct Player
   int getLevel();
   int getExp();
   int getExpRequired();
+  int getHealth();
+  int getMaxHealth();
   int getStrength();
   int getConstitution();
   int getIntelligence();
