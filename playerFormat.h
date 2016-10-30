@@ -1,5 +1,5 @@
-#ifndef "PLAYERFORMAT_H"
-#define "PLAYERFORMAT_H"
+#ifndef PLAYERFORMAT_H
+#define PLAYERFORMAT_H
 
 #include <iostream>
 
