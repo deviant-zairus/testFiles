@@ -56,3 +56,12 @@ public:
 };
 
 #endif
+
+	int playerConstitution;
+	int playerIntelligence;
+	int playerWisdom;
+	int playerDexterity;
+	int playerPerception;
+};
+
+#endif
