@@ -1,5 +1,4 @@
 #include "playerFormat.h"
-#include "stdafx.h"
 #include <iostream>
 
 player::player(std::string name, std::string area, std::string weapon, int level, int exp, int expRequired, int health, int maxHealth, int strength, int constitution, int intelligence, int wisdom, int dexterity, int perception)
@@ -48,6 +47,100 @@ void player::setExpRequired(int expRequired)
 void player::setMaxHealth(int maxHealth)
 {
 	playerMaxHealth = (20 + (3 * getConstitution()));
+}
+void player::setHealth(int health)
+{
+	playerHealth = health;
+}
+void player::setStrength(int strength)
+{
+	playerStrength = strength;
+}
+void player::setConstitution(int constitution)
+{
+	playerConstitution = constitution;
+}
+void player::setPerception(int perception)
+{
+	playerPerception = perception;
+}
+void player::setDexterity(int dexterity)
+{
+	playerDexterity = dexterity;
+}
+void player::setIntelligence(int intelligence)
+{
+	playerIntelligence = intelligence;
+}
+void player::setWisdom(int wisdom)
+{
+	playerWisdom = wisdom;
+}
+
+
+//member accesors
+std::string player::getName()
+{
+	return playerName;
+}
+std::string player::getArea()
+{
+	return playerArea;
+}
+std::string player::getWeapon()
+{
+	return playerWeapon;
+}
+int player::getLevel()
+{
+	return playerLevel;
+}
+int player::getExp()
+{
+	return playerExp;
+}
+int player::getExpRequired()
+{
+	return playerExpRequired;
+}
+int player::getMaxHealth()
+{
+	return playerMaxHealth;
+}
+int player::getHealth()
+{
+	return playerHealth;
+}
+int player::getStrength()
+{
+	return playerStrength;
+}
+int player::getConstitution()
+{
+	return playerConstitution;
+}
+int player::getPerception()
+{
+	return playerPerception;
+}
+int player::getDexterity()
+{
+	return playerDexterity;
+}
+int player::getIntelligence()
+{
+	return playerIntelligence;
+}
+int player::getWisdom()
+{
+	return playerWisdom;
+}
+
+int main()
+{
+	return 0;
+}
+
 }
 void player::setHealth(int health)
 {
