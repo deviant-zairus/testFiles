@@ -1,7 +1,6 @@
 int main()
 {
-    std::srand(std::time(NULL));
-
     Game game;
-    game.play();
+    game.Run();
+    return 0;
 }
