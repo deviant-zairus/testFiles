@@ -31,5 +31,107 @@ void mob::setSpecial(std::string special)
 {
   mobSpecial = special;
 }
+void mob::setLevel(int level)
+{
+  mobLevel = level;
+}
+void mob::setExpGiven(int expGiven)
+{
+  mobExpGiven = expGiven;
+}
+void mob::setMaxHealth(int maxHealth)
+{
+  mobMaxHealth = maxHealth;
+}
+void mob::setStrength(int strength)
+{
+  mobStrength = strength;
+}
+void mob::setConstitution(int constitution)
+{
+  mobConstitution = constitution;
+}
+void mob::setPerception(int perception)
+{
+  mobPerception = perception;
+}
+void mob::setDexterity(int dexterity)
+{
+  mobDexterity = dexterity;
+}
+void mob::setIntelligence(int intelligence)
+{
+  mobIntelligence = intelligence;
+}
+void mob::setWisdom(int wisdom)
+{
+  mobWisdom = wisdom;
+}
+
+//member accesors
+std::string mob::getName()
+{
+  return mobName;
+}
+std::string mob::getArea()
+{
+  return mobArea;
+}
+std::string mob::getSpecial()
+{
+  return mobSpecial;
+}
+int mob::getLevel()
+{
+  return mobLevel;
+}
+int mob::getExpGiven()
+{
+  return mobExpGiven;
+}
+int mob::getMaxHealth()
+{
+  return mobMaxHealth;
+}
+int mob::getHealth()
+{
+  return mobHealth;
+}
+int mob::getStrength()
+{
+  return mobStrength;
+}
+int mob::getConstitution()
+{
+  return mobCostitution;
+}
+int mob::getPerception()
+{
+  return mobPerception;
+}
+int mob::getDexterity()
+{
+  return mobDexterity;
+}
+int mob::getIntelligence()
+{
+  return mobIntelligence;
+}
+int mob::getWisdom()
+{
+  return playerWisdom;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
