@@ -19,5 +19,17 @@ mob::mob(std::string name, std::string area, std::string special, int level, int
 }
 
 //member mutators
+void mob::setName(std::string name)
+{
+  mobName = name;
+}
+void mob::setArea(std::string area)
+{
+  mobArea = area;
+}
+void mob::setSpecial(std::string special)
+{
+  mobSpecial = special;
+}
 
 
