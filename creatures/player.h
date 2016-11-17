@@ -53,9 +53,7 @@ public:
 	int playerWisdom;
 	int playerDexterity;
 	int playerPerception;
-};
 
-#endif
 
 	int playerConstitution;
 	int playerIntelligence;
